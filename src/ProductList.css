@@ -250,3 +250,25 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+
+  .product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.plant-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.plant-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
